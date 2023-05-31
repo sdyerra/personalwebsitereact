@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+.light {
+    background-color: #f0eaca;
+    font-size: calc(10px + 1vmin);
+    font-family: 'Corben', cursive;
+}

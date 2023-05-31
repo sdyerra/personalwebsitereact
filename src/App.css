@@ -5,7 +5,7 @@
 }
 
 .App-header {
-  background-color: #cca777;
+  background-color: #f0eaca;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,4 +14,14 @@
   font-size: calc(10px + 4.5vmin);
   font-family: 'Corben', cursive;
   color: rgba(70, 68, 68, 0.815);
+}
+
+.heading {
+  animation-name: fade_in;
+  animation-duration: 2s;
+}
+
+@keyframes fade_in {
+  from {opacity: 0;}
+  to {opacity:100;}
 }
