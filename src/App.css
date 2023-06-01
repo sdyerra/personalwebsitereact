@@ -2,10 +2,11 @@
 
 .App {
   text-align: center;
+  
 }
 
 .App-header {
-  background-color: #f0eaca;
+  background-color: #fcfaee;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,8 @@
 .heading {
   animation-name: fade_in;
   animation-duration: 2s;
+  position: absolute;
+  top: calc(2vmin + 75px);
 }
 
 @keyframes fade_in {

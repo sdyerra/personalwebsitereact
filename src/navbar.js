@@ -18,13 +18,13 @@ function Custombar() {
                     <Container className={"d-flex justify-content-center align-items-center"}>
                         <Nav>
                             <Nav.Link href='/'>Home</Nav.Link>
-                            <Nav.Link href='/contact'>Contact Me</Nav.Link>
+                            <Nav.Link href='/about'>About Me</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>
                 <Routes>
                     <Route path='/' Component={App} />
-                    <Route path='/contact' Component={Contact} />
+                    <Route path='/about' Component={Contact} />
                 </Routes>
             </Router>
         </div>    

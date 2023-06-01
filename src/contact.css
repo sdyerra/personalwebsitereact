@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
-
-.Contact {
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 .Contact-header {
-    background-color: #f0eaca;
+    background-color: #fcfaee;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,11 +11,36 @@
     font-size: calc(10px + 4.5vmin);
     font-family: 'Corben', cursive;
     color: rgba(70, 68, 68, 0.815);
+    text-align: center;
 }
 
-.heading {
+.social_icons {
+    position: absolute;
+    top: 90%
+}
+
+.contactpic {
+    max-width: 40%;
+    max-height: 750px;
+    border-radius: 50%;
+    animation-name: fade_in, transition_in;
+    animation-duration: 2s;
+    position: absolute;
+    top: calc(2vmin + 75px);
+}
+
+.contactheading {
     animation-name: fade_in;
     animation-duration: 2s;
+}
+
+.intro {
+    position: relative;
+    top: calc(2vmin + 100px);
+    font-family: 'Jost', sans-serif;
+    font-size: calc(8px + 1vmin);
+    text-align: left;
+    width: 30%;
 }
 
 @keyframes fade_in {
@@ -29,4 +51,131 @@
     to {
         opacity: 100;
     }
+}
+
+@keyframes transition_in {
+    from {
+        transform: translateY(-40px);
+    }
+    to {
+        transfrom: translateY(0px);
+    }
+}
+
+@media only screen and (max-width: 389px) {
+    .contactpic {
+        max-width: 42%;
+        max-height: 750px;
+        border-radius: 50%;
+        animation-name: fade_in, transition_in;
+        animation-duration: 2s;
+        position: absolute;
+        top: calc(2vmin + 75px);
+    }
+
+    .intro {
+        position: relative;
+        top: calc(2vmin + 30px);
+        font-family: 'Jost', sans-serif;
+        font-size: calc(8px + 1vmin);
+        text-align: left;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .contactpic {
+            max-width: 40%;
+            max-height: 750px;
+            border-radius: 50%;
+            animation-name: fade_in, transition_in;
+            animation-duration: 2s;
+            position: absolute;
+            top: calc(2vmin + 125px);
+        }
+
+    .intro {
+            position: relative;
+            top: calc(2vmin - 50px);
+            font-family: 'Jost', sans-serif;
+            font-size: calc(8px + 1vmin);
+            text-align: left;
+            width: 70%;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+    .intro {
+            position: relative;
+            top: calc(2vmin);
+            font-family: 'Jost', sans-serif;
+            font-size: calc(8px + 1vmin);
+            text-align: left;
+            width: 50%;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    .contactpic {
+            max-width: 40%;
+            max-height: 750px;
+            border-radius: 50%;
+            animation-name: fade_in, transition_in;
+            animation-duration: 2s;
+            position: absolute;
+            top: calc(2vmin + 125px);
+        }
+    .intro {
+            position: relative;
+            top: calc(2vmin - 15px);
+            font-family: 'Jost', sans-serif;
+            font-size: calc(8px + 1vmin);
+            text-align: left;
+            width: 50%;
+        }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    .contactpic {
+            max-width: 40%;
+            max-height: 750px;
+            border-radius: 50%;
+            animation-name: fade_in, transition_in;
+            animation-duration: 2s;
+            position: absolute;
+            top: calc(2vmin + 125px);
+        }
+    
+        .intro {
+            position: relative;
+            top: calc(2vmin);
+            font-family: 'Jost', sans-serif;
+            font-size: calc(8px + 1vmin);
+            text-align: left;
+            width: 50%;
+        }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+
+    .contactpic {
+            max-width: 40%;
+            max-height: 600px;
+            border-radius: 50%;
+            animation-name: fade_in, transition_in;
+            animation-duration: 2s;
+            position: absolute;
+            top: calc(2vmin + 125px);
+        }
+    
+        .intro {
+            position: relative;
+            top: calc(2vmin + 250px);
+            font-family: 'Jost', sans-serif;
+            font-size: calc(8px + 1vmin);
+            text-align: left;
+            width: 35%;
+        }
 }
