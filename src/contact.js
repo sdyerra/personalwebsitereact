@@ -17,11 +17,11 @@ function Contact() {
                 I am currently looking for programming and cybersecurity roles.
                 Outside of programming skills, I have experience with network and server administration,
                 advanced hardware and software troubleshooting, and penetration testing.</p>
-            <Container className='social_icons'>
+            <Container className='icons-container'>
                 <Row>
-                    <Col><img src={emaillogo} className={"height:10px"}/></Col>
-                    <Col><img src={linkedin} /></Col>
-                    <Col><img src={twit} /></Col>
+                    <Col xs="auto"><img src={emaillogo} className='icons' /></Col>
+                    <Col xs="auto"><img src={linkedin} className='icons' /></Col>
+                    <Col xs="auto"><img src={twit} className='icons'/></Col>
                 </Row>
             </Container>
         </div>

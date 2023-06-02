@@ -14,9 +14,19 @@
     text-align: center;
 }
 
-.social_icons {
-    position: absolute;
-    top: 90%
+.icons-container {
+    position:absolute;
+    top: 90%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: calc(4vmin);
+    margin-left: calc(4vh);
+    margin-right: calc(4vh);
 }
 
 .contactpic {
