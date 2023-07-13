@@ -21,9 +21,12 @@ export default function Glitter() {
             init={particlesInit}
 
             options={{
+                "responsive": {
+                    "mode": "screen"
+                },
                 "fullScreen": {
-                    "enable": true,
-                    "zIndex": -1
+                    "enable": false,
+                    "zIndex": 0
                 },
                 "particles": {
                     "number": {

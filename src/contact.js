@@ -12,16 +12,16 @@ function Contact() {
     return (
         <div className="Contact-header">
             <img className='contactpic' src={Contactpic} alt="Grad Pic" />
-            <p className='intro'>Hi, I'm glad you found my site! I'm a recent graduate of Virginia Tech Computer Science.
+            <p className='intro'>Hi! I'm a recent graduate of Virginia Tech Computer Science.
                 I have experience programming in Java, Python, C, Kotlin, and React JS; I would also love to work with new languages.
                 I am currently looking for programming and cybersecurity roles.
                 Outside of programming skills, I have experience with network and server administration,
                 advanced hardware and software troubleshooting, and penetration testing.</p>
             <Container className='icons-container'>
                 <Row>
-                    <Col xs="auto"><img src={emaillogo} className='icons' /></Col>
-                    <Col xs="auto"><img src={linkedin} className='icons' /></Col>
-                    <Col xs="auto"><img src={twit} className='icons'/></Col>
+                    <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={emaillogo} className='icons' alt="email"/></a></Col>
+                    <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={linkedin} className='icons' alt="linkedin" /></a></Col>
+                    <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={twit} className='icons' alt="twitter" /></a></Col>
                 </Row>
             </Container>
         </div>

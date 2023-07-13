@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.Box {
+    min-width: calc(75vmin);
+    min-height: calc(25vmin);
+    border: dashed;
+    border-radius: 200px;
+    display: inline-block;
+
+}
+
+.boxheading {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: calc(2vmin);
+    margin-top: calc(2vmin);
+}
+
+.project_description {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 13pt;
+}

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 .Contact-header {
-    background-color: #fcfaee;
+    background-color: #fcf7de;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,11 @@
     width: calc(4vmin);
     margin-left: calc(4vh);
     margin-right: calc(4vh);
+    transition: transform .2s;
+}
+
+.icons:hover {
+    transform: scale(1.25);
 }
 
 .contactpic {
