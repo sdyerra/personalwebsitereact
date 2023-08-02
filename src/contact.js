@@ -20,8 +20,8 @@ function Contact() {
             <Container className='icons-container'>
                 <Row>
                     <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={emaillogo} className='icons' alt="email"/></a></Col>
-                    <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={linkedin} className='icons' alt="linkedin" /></a></Col>
-                    <Col xs="auto"><a href="https://google.com" target="_blank" rel="noreferrer"><img src={twit} className='icons' alt="twitter" /></a></Col>
+                    <Col xs="auto"><a href="https://www.linkedin.com/in/saidyerra/" target="_blank" rel="noreferrer"><img src={linkedin} className='icons' alt="linkedin" /></a></Col>
+                    <Col xs="auto"><a href="https://twitter.com/saiyerraa" target="_blank" rel="noreferrer"><img src={twit} className='icons' alt="twitter" /></a></Col>
                 </Row>
             </Container>
         </div>

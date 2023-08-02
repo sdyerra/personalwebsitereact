@@ -7,13 +7,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   
 }
 
 .App-header {
   font-family: 'Corben', cursive;
   color: rgba(70, 68, 68, 0.815);
+  
 }
 
 .heading {
