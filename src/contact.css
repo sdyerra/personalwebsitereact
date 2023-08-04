@@ -79,7 +79,7 @@
 
 @media only screen and (max-width: 389px) {
     .contactpic {
-        max-width: 42%;
+        max-width: 55%;
         max-height: 750px;
         border-radius: 50%;
         animation-name: fade_in, transition_in;
@@ -92,15 +92,31 @@
         position: relative;
         top: calc(2vmin + 30px);
         font-family: 'Jost', sans-serif;
-        font-size: calc(8px + 1vmin);
+        font-size: calc(7px + 1vmin);
         text-align: left;
         width: 75%;
     }
+
+        .icons {
+            width: calc(5vmin);
+            margin-left: calc(4vh);
+            margin-right: calc(4vh);
+            transition: transform .2s;
+        }
+
+                .icons-container {
+                    position: absolute;
+                    top: 81%;
+                    max-width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
 }
 
 @media only screen and (min-width: 390px) {
     .contactpic {
-            max-width: 40%;
+            max-width: 60%;
             max-height: 750px;
             border-radius: 50%;
             animation-name: fade_in, transition_in;
@@ -111,34 +127,61 @@
 
     .intro {
             position: relative;
-            top: calc(2vmin - 50px);
+            top: calc(2vmin);
             font-family: 'Jost', sans-serif;
-            font-size: calc(8px + 1vmin);
+            font-size: calc(9px + 1vmin);
             text-align: left;
-            width: 70%;
+            width: 75%;
         }
+
+            .icons-container {
+                position: absolute;
+                top:69%;
+                max-width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            }
+
+                        .icons {
+                            width: calc(6vmin);
+                            margin-left: calc(4vh);
+                            margin-right: calc(4vh);
+                            transition: transform .2s;
+                        }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
+
+    .contactpic {
+            max-width: 60%;
+            max-height: 750px;
+            border-radius: 50%;
+            animation-name: fade_in, transition_in;
+            animation-duration: 2s;
+            position: absolute;
+            top: calc(2vmin + 90px);
+        }
+
     .intro {
             position: relative;
             top: calc(2vmin);
             font-family: 'Jost', sans-serif;
             font-size: calc(8px + 1vmin);
             text-align: left;
-            width: 50%;
+            width: 65%;
         }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 550px) {
     .contactpic {
-            max-width: 40%;
+            max-width: 50%;
             max-height: 750px;
             border-radius: 50%;
             animation-name: fade_in, transition_in;
             animation-duration: 2s;
             position: absolute;
-            top: calc(2vmin + 125px);
+            top: calc(2vmin + 90px);
         }
     .intro {
             position: relative;
@@ -152,45 +195,314 @@
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
-    .contactpic {
+
+    .Contact-header {
+            background-color: #fcf7de;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 4.5vmin);
+            font-family: 'Corben', cursive;
+            color: rgba(70, 68, 68, 0.815);
+            text-align: center;
+        }
+    
+        .icons-container {
+            position: absolute;
+            top: 90%;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .icons {
+            width: calc(4vmin);
+            margin-left: calc(4vh);
+            margin-right: calc(4vh);
+            transition: transform .2s;
+        }
+    
+        .icons:hover {
+            transform: scale(1.25);
+        }
+    
+        .contactpic {
             max-width: 40%;
             max-height: 750px;
             border-radius: 50%;
             animation-name: fade_in, transition_in;
             animation-duration: 2s;
             position: absolute;
-            top: calc(2vmin + 125px);
+            top: calc(2vmin + 75px);
+        }
+    
+        .contactheading {
+            animation-name: fade_in;
+            animation-duration: 2s;
         }
     
         .intro {
             position: relative;
-            top: calc(2vmin);
+            top: calc(2vmin + 100px);
             font-family: 'Jost', sans-serif;
             font-size: calc(8px + 1vmin);
             text-align: left;
-            width: 50%;
+            width: 30%;
         }
+    
 }
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
 
-    .contactpic {
-            max-width: 40%;
-            max-height: 600px;
+    .Contact-header {
+            background-color: #fcf7de;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 4.5vmin);
+            font-family: 'Corben', cursive;
+            color: rgba(70, 68, 68, 0.815);
+            text-align: center;
+        }
+    
+        .icons-container {
+            position: absolute;
+            top: 75%;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .icons {
+            width: calc(3.5vmin);
+            margin-left: calc(4vh);
+            margin-right: calc(4vh);
+            transition: transform .2s;
+        }
+    
+        .icons:hover {
+            transform: scale(1.25);
+        }
+    
+        .contactpic {
+            max-width: 35%;
+            max-height: 750px;
             border-radius: 50%;
             animation-name: fade_in, transition_in;
             animation-duration: 2s;
             position: absolute;
-            top: calc(2vmin + 125px);
+            top: calc(2vmin + 75px);
+        }
+    
+        .contactheading {
+            animation-name: fade_in;
+            animation-duration: 2s;
         }
     
         .intro {
             position: relative;
-            top: calc(2vmin + 250px);
+            top: calc(2vmin + 100px);
             font-family: 'Jost', sans-serif;
             font-size: calc(8px + 1vmin);
             text-align: left;
-            width: 35%;
+            width: 30%;
         }
+
+    
+}
+
+/* Extra big screen devices (1800px and above) */
+@media only screen and (min-width: 1800px) {
+
+    .Contact-header {
+        background-color: #fcf7de;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 4.5vmin);
+        font-family: 'Corben', cursive;
+        color: rgba(70, 68, 68, 0.815);
+        text-align: center;
+    }
+
+    .icons-container {
+        position: absolute;
+        top: 75%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        width: calc(3.5vmin);
+        margin-left: calc(4vh);
+        margin-right: calc(4vh);
+        transition: transform .2s;
+    }
+
+    .icons:hover {
+        transform: scale(1.25);
+    }
+
+    .contactpic {
+        max-width: 30%;
+        max-height: 750px;
+        border-radius: 50%;
+        animation-name: fade_in, transition_in;
+        animation-duration: 2s;
+        position: absolute;
+        top: calc(2vmin + 75px);
+    }
+
+    .contactheading {
+        animation-name: fade_in;
+        animation-duration: 2s;
+    }
+
+    .intro {
+        position: relative;
+        top: calc(2vmin + 100px);
+        font-family: 'Jost', sans-serif;
+        font-size: calc(8px + 1vmin);
+        text-align: left;
+        width: 30%;
+    }
+
+
+}
+
+/* Extra big screen devices (2000px and above) */
+@media only screen and (min-width: 2000px) {
+
+    .Contact-header {
+        background-color: #fcf7de;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 4.5vmin);
+        font-family: 'Corben', cursive;
+        color: rgba(70, 68, 68, 0.815);
+        text-align: center;
+    }
+
+    .icons-container {
+        position: absolute;
+        top: 75%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        width: calc(3.5vmin);
+        margin-left: calc(4vh);
+        margin-right: calc(4vh);
+        transition: transform .2s;
+    }
+
+    .icons:hover {
+        transform: scale(1.25);
+    }
+
+    .contactpic {
+        max-width: 25%;
+        max-height: 750px;
+        border-radius: 50%;
+        animation-name: fade_in, transition_in;
+        animation-duration: 2s;
+        position: absolute;
+        top: calc(2vmin + 75px);
+    }
+
+    .contactheading {
+        animation-name: fade_in;
+        animation-duration: 2s;
+    }
+
+    .intro {
+        position: relative;
+        top: calc(2vmin + 100px);
+        font-family: 'Jost', sans-serif;
+        font-size: calc(8px + 1vmin);
+        text-align: left;
+        width: 30%;
+    }
+
+
+}
+
+/* Extra big screen devices (2500px and above) */
+@media only screen and (min-width: 2500px) {
+
+    .Contact-header {
+        background-color: #fcf7de;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 4.5vmin);
+        font-family: 'Corben', cursive;
+        color: rgba(70, 68, 68, 0.815);
+        text-align: center;
+    }
+
+    .icons-container {
+        position: absolute;
+        top: 75%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        width: calc(3.5vmin);
+        margin-left: calc(4vh);
+        margin-right: calc(4vh);
+        transition: transform .2s;
+    }
+
+    .icons:hover {
+        transform: scale(1.25);
+    }
+
+    .contactpic {
+        max-width: 20%;
+        max-height: 750px;
+        border-radius: 50%;
+        animation-name: fade_in, transition_in;
+        animation-duration: 2s;
+        position: absolute;
+        top: calc(2vmin + 75px);
+    }
+
+    .contactheading {
+        animation-name: fade_in;
+        animation-duration: 2s;
+    }
+
+    .intro {
+        position: relative;
+        top: calc(2vmin + 130px);
+        font-family: 'Jost', sans-serif;
+        font-size: calc(8px + 1vmin);
+        text-align: left;
+        width: 20%;
+    }
+
+
 }
