@@ -8,25 +8,26 @@ import './navbar.css'
 import {
     BrowserRouter as Router,
     Routes,
-    Route
+    Route,
+    HashRouter
 } from 'react-router-dom';
 function Custombar() {
     return (
         <div>
-            <Router>
+            <HashRouter hashType="" basename='/'>
                 <Navbar className='light'>
                     <Container className={"d-flex justify-content-center align-items-center"}>
                         <Nav>
-                            <Nav.Link href='/'>Home</Nav.Link>
-                            <Nav.Link href='/about'>About Me</Nav.Link>
+                            <Nav.Link href='/#/'>Home</Nav.Link>
+                            <Nav.Link href='/#/about'>About Me</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>
                 <Routes>
                     <Route path='/' Component={App} />
-                    <Route path='/about' Component={Contact} />
+                    <Route path='about' Component={Contact} />
                 </Routes>
-            </Router>
+            </HashRouter>
         </div>    
     );
 }
