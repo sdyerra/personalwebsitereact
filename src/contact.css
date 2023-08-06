@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 .Contact-header {
-    background-color: #fcf7de;
+    background-color: #f1cac5;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -197,7 +197,7 @@
 @media only screen and (min-width: 889px) {
 
     .Contact-header {
-            background-color: #fcf7de;
+            
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -259,7 +259,7 @@
 @media only screen and (min-width: 1200px) {
 
     .Contact-header {
-            background-color: #fcf7de;
+            
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -322,7 +322,7 @@
 @media only screen and (min-width: 1800px) {
 
     .Contact-header {
-        background-color: #fcf7de;
+        
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -385,7 +385,6 @@
 @media only screen and (min-width: 2000px) {
 
     .Contact-header {
-        background-color: #fcf7de;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -448,7 +447,7 @@
 @media only screen and (min-width: 2500px) {
 
     .Contact-header {
-        background-color: #fcf7de;
+        
         min-height: 100vh;
         display: flex;
         flex-direction: column;

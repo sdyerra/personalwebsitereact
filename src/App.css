@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
 
 .App {
-  background-color: #fcf7de;
+  background-color: #f1cac5;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   
 }
 
