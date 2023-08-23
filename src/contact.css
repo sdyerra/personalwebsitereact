@@ -14,6 +14,13 @@
     text-align: center;
 }
 
+.popup-content {
+    font-family: 'Jost', sans-serif;
+    color: rgba(70, 68, 68, 0.815);
+    animation-name: fade_in;
+    animation-duration: 0.5s;
+}
+
 .icons-container {
     position:absolute;
     top: 90%;
