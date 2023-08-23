@@ -22,7 +22,7 @@ function Contact() {
                 advanced hardware and software troubleshooting, and penetration testing.</p>
             <Container className='icons-container'>
                 <Row>
-                    <Popup trigger={ <Col xs="auto"><img onClick={() => {navigator.clipboard.writeText("saideepak.yerra@gmail.com")}} src={emaillogo} className='icons' alt="email"/></Col>}> <a>Email copied to clipboard.</a> </Popup> 
+                    <Popup position='top' trigger={ <Col xs="auto"><img onClick={() => {navigator.clipboard.writeText("saideepak.yerra@gmail.com")}} src={emaillogo} className='icons' alt="email"/></Col>}> <a>Email copied to clipboard.</a> </Popup> 
                     <Col xs="auto"><a href="https://www.linkedin.com/in/saidyerra/" target="_blank" rel="noreferrer"><img src={linkedin} className='icons' alt="linkedin" /></a></Col>
                     <Col xs="auto"><a href="https://twitter.com/saiyerraa" target="_blank" rel="noreferrer"><img src={twit} className='icons' alt="twitter" /></a></Col>
                 </Row>

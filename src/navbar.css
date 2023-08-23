@@ -2,6 +2,6 @@
 
 .light {
     background-color: #f1cac5;
-    font-size: calc(10px + 1vmin);
+    font-size: calc(10px + 1.5vmin);
     font-family: 'Corben', cursive;
 }
