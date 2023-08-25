@@ -3,26 +3,7 @@
 .App {
   background-color: #f1cac5;
   min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  
-}
-
-.App-header {
-  font-family: 'Corben', cursive;
-  color: rgba(70, 68, 68, 0.815);
-}
-
-.heading {
-  animation-name: fade_in;
-  animation-duration: 2s;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(2vmin);
-  top: calc(2vmin + 75px);
+  display: grid;
 }
 
 @keyframes fade_in {

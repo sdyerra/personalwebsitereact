@@ -6,8 +6,6 @@ import Featured from './Featured';
 function App() {
   return (
       <div className="App">
-      <header className="App-header">
-      </header>
 
       <Featured></Featured>
       
